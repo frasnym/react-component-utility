@@ -1,0 +1,20 @@
+{
+  "name": "react-component-utility",
+  "version": "1.0.0",
+  "description": "Components utility for ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frasnym/react-component-utility.git"
+  },
+  "keywords": [],
+  "author": "Frastyawan Nym <frastyawan.nym@gmail.com> (https://frasnym.tech/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frasnym/react-component-utility/issues"
+  },
+  "homepage": "https://github.com/frasnym/react-component-utility#readme"
+}
