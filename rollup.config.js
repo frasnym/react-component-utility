@@ -1,6 +1,7 @@
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import typescript from '@rollup/plugin-typescript'
+import replace from '@rollup/plugin-replace'
 import dts from 'rollup-plugin-dts'
 
 const packageJson = require('./package.json')
@@ -29,7 +30,11 @@ export default [
     plugins: [
       resolve(),
       commonjs(),
-      typescript({ tsconfig: './tsconfig.json' })
+      typescript({ tsconfig: './tsconfig.json' }),
+      replace({
+        preventAssignment: true,
+        'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+      })
     ]
   },
   {
