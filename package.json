@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/frasnym/react-component-utility/issues"
   },
-  "homepage": "https://github.com/frasnym/react-component-utility#readme"
+  "homepage": "https://github.com/frasnym/react-component-utility#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
 }
