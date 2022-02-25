@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Emoji renders the Emoji component 1`] = `
+exports[`Emoji should renders the Emoji component 1`] = `
 <span
   aria-hidden="true"
   aria-label=""
