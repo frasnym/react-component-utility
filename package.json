@@ -17,7 +17,7 @@
     "test": "jest",
     "test:watch": "npm run test -- --watch",
     "test:coverage": "npm run test -- --coverage",
-    "test:coveralls": "npm run test -- && coveralls < coverage/lcov.info",
+    "test:coveralls": "npm run test -- --coverageReporters=text-lcov | coveralls",
     "test:staged": "npm run test -- --findRelatedTests",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
